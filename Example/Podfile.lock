@@ -1,0 +1,16 @@
+PODS:
+  - TagStyledView (0.1.0)
+
+DEPENDENCIES:
+  - TagStyledView (from `../`)
+
+EXTERNAL SOURCES:
+  TagStyledView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TagStyledView: 6464f121f234a2d611cc847e953179e3a2a776a2
+
+PODFILE CHECKSUM: f896f4fccdddd009ff33d0dc8d55d61681552333
+
+COCOAPODS: 1.5.3

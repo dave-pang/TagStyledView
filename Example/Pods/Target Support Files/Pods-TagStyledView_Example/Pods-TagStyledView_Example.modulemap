@@ -1,0 +1,6 @@
+framework module Pods_TagStyledView_Example {
+  umbrella header "Pods-TagStyledView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

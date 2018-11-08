@@ -1,0 +1,6 @@
+framework module TagStyledView {
+  umbrella header "TagStyledView-umbrella.h"
+
+  export *
+  module * { export * }
+}

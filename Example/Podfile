@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TagStyledView_Example' do
+  pod 'TagStyledView', :path => '../'
+
+  target 'TagStyledView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
