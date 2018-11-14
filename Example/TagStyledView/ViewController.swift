@@ -80,7 +80,7 @@ class ViewController: UIViewController {
         default:
             break
         }
-        
+  
         let align: (() -> TagStyledView.Options.Alignment) = { [unowned self] in
             switch self.alignControl.selectedSegmentIndex {
             case 1:  return TagStyledView.Options.Alignment.left
@@ -90,7 +90,7 @@ class ViewController: UIViewController {
             }
         }
         
-        tagStyledView.option = TagStyledView.Options(sectionInset: UIEdgeInsets(top: CGFloat(insetTop.stepper.value),
+        tagStyledView.options = TagStyledView.Options(sectionInset: UIEdgeInsets(top: CGFloat(insetTop.stepper.value),
                                                                                 left: CGFloat(insetLeft.stepper.value),
                                                                                 bottom: CGFloat(insetBottom.stepper.value),
                                                                                 right: CGFloat(insetRight.stepper.value)),

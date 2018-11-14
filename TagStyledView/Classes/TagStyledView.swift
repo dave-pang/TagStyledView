@@ -60,13 +60,13 @@ public class TagStyledView: UIView {
         didSet { collectionView?.reloadData() }
     }
     
-    public var option: TagStyledView.Options? {
+    public var options: TagStyledView.Options? {
         didSet {
-            guard let option = option else { return }
-            layout.sectionInset = option.sectionInset
-            layout.minimumInteritemSpacing = option.interitemSpacing
-            layout.minimumLineSpacing = option.lineSpacing
-            layout.align = option.align
+            guard let options = options else { return }
+            layout.sectionInset = options.sectionInset
+            layout.minimumInteritemSpacing = options.interitemSpacing
+            layout.minimumLineSpacing = options.lineSpacing
+            layout.align = options.align
             
             collectionView.reloadData()
         }
