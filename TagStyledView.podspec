@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'TagStyledView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of TagStyledView.'
+  s.summary          = 'Easier view of the style of the tag view View to receive and display cells of the collection view'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
