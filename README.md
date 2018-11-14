@@ -9,6 +9,8 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+![](Screenshot/demo.gif)
+
 ## Requirements
 
 ## Installation
@@ -26,7 +28,7 @@ pod 'TagStyledView'
 
 1. In the Identity Inspector, set the layout object's custom class to `TagStyledView`.
 
-    ![Screenshot: Usage1](Docs/usage1.png)
+    ![](Screenshot/usage1.png)
     
     ```Swift
     @IBOutlet weak var tagStyledView: TagStyledView!
