@@ -13,6 +13,14 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		6928D350219580D000F26265 /* SubViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6928D34F219580D000F26265 /* SubViews.swift */; };
+		6928D35521958D1B00F26265 /* TagCell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6928D35121958D1B00F26265 /* TagCell2.xib */; };
+		6928D35621958D1B00F26265 /* TagCell3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6928D35221958D1B00F26265 /* TagCell3.xib */; };
+		6928D35721958D1B00F26265 /* TagCell3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6928D35321958D1B00F26265 /* TagCell3.swift */; };
+		6928D35821958D1B00F26265 /* TagCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6928D35421958D1B00F26265 /* TagCell2.swift */; };
+		6928D35B21958E4600F26265 /* CALayer+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6928D35A21958E4600F26265 /* CALayer+Custom.swift */; };
+		69BE2624219546FE00F45A07 /* TagCell1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69BE2623219546FE00F45A07 /* TagCell1.xib */; };
+		69BE26262195470E00F45A07 /* TagCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BE26252195470E00F45A07 /* TagCell1.swift */; };
 		7DA684E43471E81E6751902D /* Pods_TagStyledView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D9D1041BD02BB320046D75E /* Pods_TagStyledView_Tests.framework */; };
 		A4D5EA5086A27F46C146547F /* Pods_TagStyledView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6203DB2FD5166A2EBF0847E7 /* Pods_TagStyledView_Example.framework */; };
 /* End PBXBuildFile section */
@@ -40,6 +48,15 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6203DB2FD5166A2EBF0847E7 /* Pods_TagStyledView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TagStyledView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6928D34F219580D000F26265 /* SubViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubViews.swift; sourceTree = "<group>"; };
+		6928D35121958D1B00F26265 /* TagCell2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TagCell2.xib; sourceTree = "<group>"; };
+		6928D35221958D1B00F26265 /* TagCell3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TagCell3.xib; sourceTree = "<group>"; };
+		6928D35321958D1B00F26265 /* TagCell3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagCell3.swift; sourceTree = "<group>"; };
+		6928D35421958D1B00F26265 /* TagCell2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagCell2.swift; sourceTree = "<group>"; };
+		6928D35A21958E4600F26265 /* CALayer+Custom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CALayer+Custom.swift"; sourceTree = "<group>"; };
+		69BE2623219546FE00F45A07 /* TagCell1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TagCell1.xib; sourceTree = "<group>"; };
+		69BE26252195470E00F45A07 /* TagCell1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagCell1.swift; sourceTree = "<group>"; };
+		69BE262821954CED00F45A07 /* TagStyledView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TagStyledView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		77679B07310EC5EE1F365B16 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		7AED6FC4687931897E5B84E9 /* Pods-TagStyledView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TagStyledView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TagStyledView_Example/Pods-TagStyledView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		7D9D1041BD02BB320046D75E /* Pods_TagStyledView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TagStyledView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,6 +89,7 @@
 		0446E80D104EDEC5E1937FFD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				69BE262821954CED00F45A07 /* TagStyledView.framework */,
 				6203DB2FD5166A2EBF0847E7 /* Pods_TagStyledView_Example.framework */,
 				7D9D1041BD02BB320046D75E /* Pods_TagStyledView_Tests.framework */,
 			);
@@ -102,6 +120,9 @@
 		607FACD21AFB9204008FA782 /* Example for TagStyledView */ = {
 			isa = PBXGroup;
 			children = (
+				6928D35921958E2400F26265 /* Extension */,
+				6928D34E219580BE00F26265 /* Views */,
+				69BE2622219546F100F45A07 /* Cells */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -146,6 +167,35 @@
 				218E06E07334B79B58B1FFC1 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		6928D34E219580BE00F26265 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6928D34F219580D000F26265 /* SubViews.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		6928D35921958E2400F26265 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				6928D35A21958E4600F26265 /* CALayer+Custom.swift */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		69BE2622219546F100F45A07 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				69BE2623219546FE00F45A07 /* TagCell1.xib */,
+				69BE26252195470E00F45A07 /* TagCell1.swift */,
+				6928D35121958D1B00F26265 /* TagCell2.xib */,
+				6928D35421958D1B00F26265 /* TagCell2.swift */,
+				6928D35221958D1B00F26265 /* TagCell3.xib */,
+				6928D35321958D1B00F26265 /* TagCell3.swift */,
+			);
+			name = Cells;
 			sourceTree = "<group>";
 		};
 		CDF83CF22CDADC6E357F06B4 /* Pods */ = {
@@ -247,7 +297,10 @@
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				69BE2624219546FE00F45A07 /* TagCell1.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				6928D35621958D1B00F26265 /* TagCell3.xib in Resources */,
+				6928D35521958D1B00F26265 /* TagCell2.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +387,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6928D35B21958E4600F26265 /* CALayer+Custom.swift in Sources */,
+				6928D35721958D1B00F26265 /* TagCell3.swift in Sources */,
+				69BE26262195470E00F45A07 /* TagCell1.swift in Sources */,
+				6928D350219580D000F26265 /* SubViews.swift in Sources */,
+				6928D35821958D1B00F26265 /* TagCell2.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
@@ -422,7 +480,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -468,7 +526,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -482,7 +540,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TagStyledView/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -498,7 +556,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TagStyledView/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";

@@ -3,20 +3,21 @@
   "version": "0.1.0",
   "summary": "A short description of TagStyledView.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/dave.me/TagStyledView",
+  "homepage": "https://github.com/dave-pang/TagStyledView",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "dave.me": "dave.me@kakaomobility.com"
+    "dave.pang": "yainoma00@gmail.com"
   },
   "source": {
-    "git": "https://github.com/dave.me/TagStyledView.git",
+    "git": "https://github.com/dave-pang/TagStyledView.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "11.0"
   },
+  "swift_version": "4.2",
   "source_files": "TagStyledView/Classes/**/*"
 }
