@@ -23,7 +23,7 @@
                     <nil key="highlightedColor"/>
                 </label>
             </subviews>
-            <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+            <color key="backgroundColor" red="0.85169631242752075" green="0.41439765691757202" blue="0.069256298243999481" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="UsP-1r-eEt" secondAttribute="bottom" constant="10" id="9AT-q1-TEu"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="UsP-1r-eEt" secondAttribute="trailing" constant="10" id="JoR-hs-7km"/>
@@ -34,13 +34,10 @@
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <userDefinedRuntimeAttributes>
                 <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                    <integer key="value" value="10"/>
+                    <integer key="value" value="15"/>
                 </userDefinedRuntimeAttribute>
                 <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
-                    <integer key="value" value="3"/>
-                </userDefinedRuntimeAttribute>
-                <userDefinedRuntimeAttribute type="color" keyPath="layer.borderUIColor">
-                    <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <integer key="value" value="1"/>
                 </userDefinedRuntimeAttribute>
             </userDefinedRuntimeAttributes>
             <connections>

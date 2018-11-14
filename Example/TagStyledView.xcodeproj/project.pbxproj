@@ -15,12 +15,12 @@
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		6928D350219580D000F26265 /* SubViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6928D34F219580D000F26265 /* SubViews.swift */; };
 		6928D35521958D1B00F26265 /* TagCell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6928D35121958D1B00F26265 /* TagCell2.xib */; };
-		6928D35621958D1B00F26265 /* TagCell3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6928D35221958D1B00F26265 /* TagCell3.xib */; };
-		6928D35721958D1B00F26265 /* TagCell3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6928D35321958D1B00F26265 /* TagCell3.swift */; };
+		6928D35621958D1B00F26265 /* TagCell1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6928D35221958D1B00F26265 /* TagCell1.xib */; };
+		6928D35721958D1B00F26265 /* TagCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6928D35321958D1B00F26265 /* TagCell1.swift */; };
 		6928D35821958D1B00F26265 /* TagCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6928D35421958D1B00F26265 /* TagCell2.swift */; };
 		6928D35B21958E4600F26265 /* CALayer+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6928D35A21958E4600F26265 /* CALayer+Custom.swift */; };
-		69BE2624219546FE00F45A07 /* TagCell1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69BE2623219546FE00F45A07 /* TagCell1.xib */; };
-		69BE26262195470E00F45A07 /* TagCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BE26252195470E00F45A07 /* TagCell1.swift */; };
+		69BE2624219546FE00F45A07 /* TagCell3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69BE2623219546FE00F45A07 /* TagCell3.xib */; };
+		69BE26262195470E00F45A07 /* TagCell3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BE26252195470E00F45A07 /* TagCell3.swift */; };
 		7DA684E43471E81E6751902D /* Pods_TagStyledView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D9D1041BD02BB320046D75E /* Pods_TagStyledView_Tests.framework */; };
 		A4D5EA5086A27F46C146547F /* Pods_TagStyledView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6203DB2FD5166A2EBF0847E7 /* Pods_TagStyledView_Example.framework */; };
 /* End PBXBuildFile section */
@@ -50,12 +50,12 @@
 		6203DB2FD5166A2EBF0847E7 /* Pods_TagStyledView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TagStyledView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6928D34F219580D000F26265 /* SubViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubViews.swift; sourceTree = "<group>"; };
 		6928D35121958D1B00F26265 /* TagCell2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TagCell2.xib; sourceTree = "<group>"; };
-		6928D35221958D1B00F26265 /* TagCell3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TagCell3.xib; sourceTree = "<group>"; };
-		6928D35321958D1B00F26265 /* TagCell3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagCell3.swift; sourceTree = "<group>"; };
+		6928D35221958D1B00F26265 /* TagCell1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TagCell1.xib; sourceTree = "<group>"; };
+		6928D35321958D1B00F26265 /* TagCell1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagCell1.swift; sourceTree = "<group>"; };
 		6928D35421958D1B00F26265 /* TagCell2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagCell2.swift; sourceTree = "<group>"; };
 		6928D35A21958E4600F26265 /* CALayer+Custom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CALayer+Custom.swift"; sourceTree = "<group>"; };
-		69BE2623219546FE00F45A07 /* TagCell1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TagCell1.xib; sourceTree = "<group>"; };
-		69BE26252195470E00F45A07 /* TagCell1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagCell1.swift; sourceTree = "<group>"; };
+		69BE2623219546FE00F45A07 /* TagCell3.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TagCell3.xib; sourceTree = "<group>"; };
+		69BE26252195470E00F45A07 /* TagCell3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagCell3.swift; sourceTree = "<group>"; };
 		69BE262821954CED00F45A07 /* TagStyledView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TagStyledView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		77679B07310EC5EE1F365B16 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		7AED6FC4687931897E5B84E9 /* Pods-TagStyledView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TagStyledView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TagStyledView_Example/Pods-TagStyledView_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -188,12 +188,12 @@
 		69BE2622219546F100F45A07 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				69BE2623219546FE00F45A07 /* TagCell1.xib */,
-				69BE26252195470E00F45A07 /* TagCell1.swift */,
+				6928D35221958D1B00F26265 /* TagCell1.xib */,
+				6928D35321958D1B00F26265 /* TagCell1.swift */,
 				6928D35121958D1B00F26265 /* TagCell2.xib */,
 				6928D35421958D1B00F26265 /* TagCell2.swift */,
-				6928D35221958D1B00F26265 /* TagCell3.xib */,
-				6928D35321958D1B00F26265 /* TagCell3.swift */,
+				69BE2623219546FE00F45A07 /* TagCell3.xib */,
+				69BE26252195470E00F45A07 /* TagCell3.swift */,
 			);
 			name = Cells;
 			sourceTree = "<group>";
@@ -297,9 +297,9 @@
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
-				69BE2624219546FE00F45A07 /* TagCell1.xib in Resources */,
+				69BE2624219546FE00F45A07 /* TagCell3.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
-				6928D35621958D1B00F26265 /* TagCell3.xib in Resources */,
+				6928D35621958D1B00F26265 /* TagCell1.xib in Resources */,
 				6928D35521958D1B00F26265 /* TagCell2.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -388,8 +388,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6928D35B21958E4600F26265 /* CALayer+Custom.swift in Sources */,
-				6928D35721958D1B00F26265 /* TagCell3.swift in Sources */,
-				69BE26262195470E00F45A07 /* TagCell1.swift in Sources */,
+				6928D35721958D1B00F26265 /* TagCell1.swift in Sources */,
+				69BE26262195470E00F45A07 /* TagCell3.swift in Sources */,
 				6928D350219580D000F26265 /* SubViews.swift in Sources */,
 				6928D35821958D1B00F26265 /* TagCell2.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,

@@ -16,28 +16,37 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="87"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="252" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" image="tag" translatesAutoresizingMaskIntoConstraints="NO" id="WYj-ra-UFn">
+                    <rect key="frame" x="5" y="0.0" width="24" height="87"/>
+                </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UsP-1r-eEt">
-                    <rect key="frame" x="10" y="10" width="355" height="67"/>
+                    <rect key="frame" x="29" y="10" width="336" height="67"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <nil key="highlightedColor"/>
                 </label>
             </subviews>
-            <color key="backgroundColor" red="0.85169631242752075" green="0.41439765691757202" blue="0.069256298243999481" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
             <constraints>
+                <constraint firstAttribute="bottom" secondItem="WYj-ra-UFn" secondAttribute="bottom" id="7Tc-mK-Rav"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="UsP-1r-eEt" secondAttribute="bottom" constant="10" id="9AT-q1-TEu"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="UsP-1r-eEt" secondAttribute="trailing" constant="10" id="JoR-hs-7km"/>
-                <constraint firstItem="UsP-1r-eEt" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="10" id="uCN-sg-a4c"/>
+                <constraint firstItem="WYj-ra-UFn" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="5" id="V9x-9o-HSA"/>
+                <constraint firstItem="WYj-ra-UFn" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="lYR-J6-3AS"/>
+                <constraint firstItem="UsP-1r-eEt" firstAttribute="leading" secondItem="WYj-ra-UFn" secondAttribute="trailing" id="qD9-wf-9ct"/>
                 <constraint firstItem="UsP-1r-eEt" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="10" id="zfx-uu-ni4"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <userDefinedRuntimeAttributes>
                 <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                    <integer key="value" value="5"/>
+                    <integer key="value" value="10"/>
                 </userDefinedRuntimeAttribute>
                 <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
-                    <integer key="value" value="1"/>
+                    <integer key="value" value="3"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="color" keyPath="layer.borderUIColor">
+                    <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 </userDefinedRuntimeAttribute>
             </userDefinedRuntimeAttributes>
             <connections>
@@ -46,4 +55,7 @@
             <point key="canvasLocation" x="39.200000000000003" y="307.1964017991005"/>
         </view>
     </objects>
+    <resources>
+        <image name="tag" width="24" height="24"/>
+    </resources>
 </document>
