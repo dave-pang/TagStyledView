@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## TagStyledView
 
-Copyright (c) 2018 dave.me <dave.me@kakaomobility.com>
+Copyright (c) 2018 dave.pang <yainoma00@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

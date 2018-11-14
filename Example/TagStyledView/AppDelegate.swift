@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  TagStyledView
 //
-//  Created by dave.me on 11/08/2018.
-//  Copyright (c) 2018 dave.me. All rights reserved.
+//  Created by dave.pang on 11/08/2018.
+//  Copyright (c) 2018 dave.pang. All rights reserved.
 //
 
 import UIKit

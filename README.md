@@ -1,6 +1,6 @@
 # TagStyledView
 
-[![CI Status](https://img.shields.io/travis/dave.me/TagStyledView.svg?style=flat)](https://travis-ci.org/dave.me/TagStyledView)
+[![CI Status](https://img.shields.io/travis/dave.pang/TagStyledView.svg?style=flat)](https://travis-ci.org/dave.pang/TagStyledView)
 [![Version](https://img.shields.io/cocoapods/v/TagStyledView.svg?style=flat)](https://cocoapods.org/pods/TagStyledView)
 [![License](https://img.shields.io/cocoapods/l/TagStyledView.svg?style=flat)](https://cocoapods.org/pods/TagStyledView)
 [![Platform](https://img.shields.io/cocoapods/p/TagStyledView.svg?style=flat)](https://cocoapods.org/pods/TagStyledView)
@@ -22,7 +22,7 @@ pod 'TagStyledView'
 
 ## Author
 
-dave.me, dave.me@kakaomobility.com
+dave.pang, yainoma00@gmail.com
 
 ## License
 
