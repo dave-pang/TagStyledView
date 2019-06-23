@@ -27,7 +27,7 @@ extension TagStyling {
 }
 
 public extension TagStyledView {
-    public struct Options {
+    struct Options {
         public let sectionInset: UIEdgeInsets
         public let lineSpacing: CGFloat
         public let interitemSpacing: CGFloat
@@ -46,7 +46,7 @@ public extension TagStyledView {
 }
 
 public extension TagStyledView.Options {
-    public enum Alignment {
+    enum Alignment {
         case justified
         case left
         case center
@@ -57,6 +57,10 @@ public extension TagStyledView.Options {
 public class TagStyledView: UIView {
     
     public var tags: [String]? {
+        didSet { attributedStrings = tags?.compactMap{ $0 }.map{ NSAttributedString(string: $0) } }
+    }
+    
+    public var attributedStrings: [NSAttributedString]? {
         didSet { collectionView?.reloadData() }
     }
     
@@ -71,6 +75,9 @@ public class TagStyledView: UIView {
             collectionView.reloadData()
         }
     }
+    
+    public var cellForItem: (((cell: TagStyling, indexPath: IndexPath)) -> Void)?
+    public var didSelectItemAt: ((IndexPath) -> Void)?
     
     private let layout = TagStyleFlowLayout()
     private var collectionView: UICollectionView!
@@ -89,7 +96,7 @@ public class TagStyledView: UIView {
     }
     
     private func setup() {
-        collectionView = UICollectionView(frame: bounds, collectionViewLayout: layout)
+        collectionView = ContentsWrappingCollectionView(frame: bounds, collectionViewLayout: layout)
         collectionView.translatesAutoresizingMaskIntoConstraints = false
         collectionView.backgroundColor = .clear
         collectionView.delegate = self
@@ -104,15 +111,15 @@ public class TagStyledView: UIView {
     }
     
     private func configureCell(_ cell: TagStyling, forIndexPath indexPath: IndexPath) {
-        guard let tags = tags else { return }
-        cell.tagLabel.text = tags[indexPath.row]
+        guard let attributedStrings = attributedStrings else { return }
+        cell.tagLabel.attributedText = attributedStrings[indexPath.row]
     }
 }
 
 extension TagStyledView: UICollectionViewDataSource {
     public func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        guard let tags = tags else { return 0 }
-        return tags.count
+        guard let attributedStrings = attributedStrings else { return 0 }
+        return attributedStrings.count
     }
     
     public func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -123,13 +130,44 @@ extension TagStyledView: UICollectionViewDataSource {
         
         configureCell(cell, forIndexPath: indexPath)
         
+        cellForItem?((cell, indexPath))
+        
         return cell as! UICollectionViewCell
     }
 }
 
 extension TagStyledView: UICollectionViewDelegateFlowLayout {
     public func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        configureCell(reseource!.cell, forIndexPath: indexPath)
-        return reseource!.cell.fittingSize
+        guard let cell = reseource?.cell else { return .zero }
+        
+        configureCell(cell, forIndexPath: indexPath)
+        return cell.fittingSize
+    }
+}
+
+extension TagStyledView: UICollectionViewDelegate {
+    public func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        collectionView.deselectItem(at: indexPath, animated: true)
+        didSelectItemAt?(indexPath)
+    }
+}
+
+
+final class ContentsWrappingCollectionView: UICollectionView {
+    override func reloadData() {
+        super.reloadData()
+        
+        invalidateIntrinsicContentSize()
+        superview?.layoutIfNeeded()
+    }
+    
+    override var intrinsicContentSize: CGSize {
+        return contentSize
+    }
+    
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        invalidateIntrinsicContentSize()
+        superview?.layoutIfNeeded()
     }
 }

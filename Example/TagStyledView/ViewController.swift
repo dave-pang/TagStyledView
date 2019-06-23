@@ -43,6 +43,13 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        tagStyledView.cellForItem = { item in
+            print("cell: \(item.cell), indexPath: \(item.indexPath)" as Any)
+        }
+        tagStyledView.didSelectItemAt = { indexPath in
+            print("didSelectItemAt: \(indexPath)")
+        }
 
         reset()
     }

@@ -1,5 +1,5 @@
 PODS:
-  - TagStyledView (0.1.0)
+  - TagStyledView (0.2.0)
 
 DEPENDENCIES:
   - TagStyledView (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TagStyledView: 89d09483efa735a15937f6a2bdafd1c817820ecc
+  TagStyledView: 30252ed7ac5eefc2ee127d4c5c4b4bfcfc4e5a6a
 
 PODFILE CHECKSUM: f896f4fccdddd009ff33d0dc8d55d61681552333
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.6.0
