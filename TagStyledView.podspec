@@ -29,7 +29,7 @@ Easier view of the style of the tag view View to receive and display cells of th
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '11.0'
-  s.swift_version = '5.0'
+#  s.swift_version = '5.0'
   s.source_files = 'TagStyledView/Classes/**/*'
   
   # s.resource_bundles = {
