@@ -80,7 +80,7 @@ public class TagStyledView: UIView {
     public var didSelectItemAt: ((IndexPath) -> Void)?
     
     private let layout = TagStyleFlowLayout()
-    private var collectionView: UICollectionView!
+    private var collectionView: WrappingCollectionView!
     
     private var reseource: (cell: TagStyling, identifier: String)?
     
@@ -96,7 +96,7 @@ public class TagStyledView: UIView {
     }
     
     private func setup() {
-        collectionView = ContentsWrappingCollectionView(frame: bounds, collectionViewLayout: layout)
+        collectionView = WrappingCollectionView(frame: bounds, collectionViewLayout: layout)
         collectionView.translatesAutoresizingMaskIntoConstraints = false
         collectionView.backgroundColor = .clear
         collectionView.delegate = self
@@ -152,8 +152,7 @@ extension TagStyledView: UICollectionViewDelegate {
     }
 }
 
-
-final class ContentsWrappingCollectionView: UICollectionView {
+final class WrappingCollectionView: UICollectionView {
     override func reloadData() {
         super.reloadData()
         
